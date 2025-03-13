@@ -1,0 +1,122 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+a{
+    color:white;
+    cursor: pointer;
+	text-decoration: none;
+	&:hover{
+        color: orange;
+    }
+}
+.rodape{
+    color: darkorange;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    cursor: default;
+}
+.rodape2{
+    color: darkorange;
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+}
+.box{
+    max-width: 200;
+    min-width: 200px;
+    background-color: rgb(34, 34, 34);
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    border-right: 2px solid black;
+}
+.menu{
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: darkorange;
+    background-color: transparent;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+.itens{
+    text-align: left;
+    font-size: 17px;
+    padding: 1px 10px;
+    color: white;
+    background-color: transparent;
+}
+.titulo{
+    font-size: 30px;
+    text-align: left;
+    color: darkorange;
+    text-transform: uppercase;
+    padding: 15px;
+    height: 80px;
+    background-color: rgb(34, 34, 34);
+    position: fixed;
+    top:0;
+    left: 203px;
+    right: 0;
+    margin-top: -30px;
+    border-bottom: 2px solid black;
+}
+.subtitulo{
+    color: white;
+    font-size: 15px;
+    margin-top: -30px;
+}
+.lupa1{
+	position: fixed;
+    right: 80px;
+    top: -10px;
+	color: darkorange;
+}  
+.lupa2{
+	position: fixed;
+    right: 0px;
+    top: -38px;
+}
+.bv{ 
+    margin-top: 83px;
+    margin-left: 195px;
+}
+.botao{
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: darkorange;
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    display: block;
+    &:hover{
+        background-color: orange;
+    }
+}
+.carrinho{
+    width: 50%;
+    th{
+        text-align: left;
+    }
+    td{
+        padding: 20px 0;
+        border-top: 1px solid gray;
+    }
+}
+.desc{
+    background-color: transparent;
+    color: darkorange;
+    cursor: pointer;
+    border: 0;
+    &:hover{
+        color: orange;
+    }
+}
+ 
+    
